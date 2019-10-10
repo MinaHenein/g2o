@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -Wall -W -g -O0  -shared -Wl,-soname,libg2o_interface_d.so -o ../../../../../../lib/libg2o_interface_d.so CMakeFiles/interface_library.dir/parser_interface.cpp.o CMakeFiles/interface_library.dir/slam_context_interface.cpp.o -Wl,-rpath,/home/mina/data/mina/workspace/src/Git/g2o/lib: ../../../../../../lib/libg2o_parser_d.so 

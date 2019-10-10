@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="g2o" targetName="solver_eigen" />
+      <config projectName="g2o" targetName="solver_dense" />
+      <config projectName="g2o" targetName="g2o_viewer" />
+      <config projectName="g2o" targetName="g2o_incremental_library" />
+      <config projectName="g2o" targetName="tutorial_slam2d_library" />
+      <config projectName="g2o" targetName="constant_velocity_target" />
+      <config projectName="g2o" targetName="calibration_odom_laser_library" />
+      <config projectName="g2o" targetName="viewer_library" />
+      <config projectName="g2o" targetName="types_slam2d" />
+      <config projectName="g2o" targetName="g2o_anonymize_observations_application" />
+      <config projectName="g2o" targetName="g2o_simulator3d_application" />
+      <config projectName="g2o" targetName="simulator_3d_line" />
+      <config projectName="g2o" targetName="types_sba" />
+      <config projectName="g2o" targetName="tutorial_slam2d" />
+      <config projectName="g2o" targetName="g2o_simulator2d_application" />
+      <config projectName="g2o" targetName="convertSegmentLine_application" />
+      <config projectName="g2o" targetName="simple_optimize" />
+      <config projectName="g2o" targetName="sclam_odom_laser" />
+      <config projectName="g2o" targetName="g2o_cli_library" />
+      <config projectName="g2o" targetName="interface_library" />
+      <config projectName="g2o" targetName="gicp_sba_demo" />
+      <config projectName="g2o" targetName="opengl_helper" />
+      <config projectName="g2o" targetName="types_slam3d_addons" />
+      <config projectName="g2o" targetName="freeglut_minimal" />
+      <config projectName="g2o" targetName="g2o_online_application" />
+      <config projectName="g2o" targetName="ba_anchored_inverse_depth_demo" />
+      <config projectName="g2o" targetName="solver_csparse" />
+      <config projectName="g2o" targetName="g2o_hierarchical_library" />
+      <config projectName="g2o" targetName="gicp_demo" />
+      <config projectName="g2o" targetName="create_sphere" />
+      <config projectName="g2o" targetName="solver_structure_only" />
+      <config projectName="g2o" targetName="core" />
+      <config projectName="g2o" targetName="parser_library" />
+      <config projectName="g2o" targetName="types_data" />
+      <config projectName="g2o" targetName="ba_demo" />
+      <config projectName="g2o" targetName="solver_slam2d_linear" />
+      <config projectName="g2o" targetName="csparse_extension" />
+      <config projectName="g2o" targetName="types_icp" />
+      <config projectName="g2o" targetName="convert_sba_slam3d" />
+      <config projectName="g2o" targetName="stuff" />
+      <config projectName="g2o" targetName="g2o_interactive_library" />
+      <config projectName="g2o" targetName="sclam_laser_calib" />
+      <config projectName="g2o" targetName="g2o_incremental_application" />
+      <config projectName="g2o" targetName="static_target" />
+      <config projectName="g2o" targetName="circle_fit" />
+      <config projectName="g2o" targetName="types_slam3d" />
+      <config projectName="g2o" targetName="solver_pcg" />
+      <config projectName="g2o" targetName="bal_example" />
+      <config projectName="g2o" targetName="g2o_cli_application" />
+      <config projectName="g2o" targetName="curve_fit" />
+      <config projectName="g2o" targetName="types_slam2d_addons" />
+      <config projectName="g2o" targetName="types_sim3" />
+      <config projectName="g2o" targetName="sclam_pure_calibration" />
+      <config projectName="g2o" targetName="sba_demo" />
+      <config projectName="g2o" targetName="g2o_hierarchical_application" />
+      <config projectName="g2o" targetName="g2o_simulator_library" />
+      <config projectName="g2o" targetName="solver_cholmod" />
+      <config projectName="g2o" targetName="slam2d_g2o" />
+      <config projectName="g2o" targetName="dynamic_slam_demo" />
+      <config projectName="g2o" targetName="types_sclam2d" />
+      <config projectName="g2o" targetName="simulator_3d_plane" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31fa019a-9c17-4ff0-b9a7-750b3e249635" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam/dynamic_slam_demo.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="102" column="18" lean-forward="true" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>oPlus</find>
+      <find>resize</find>
+      <find>sensorOffset</find>
+      <find>optimizer</find>
+      <find>pose1_init</find>
+      <find>simulator</find>
+      <find>saveVertex</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/g2o/core/landmark_motion_ternary_edge.cpp" />
+        <option value="$PROJECT_DIR$/g2o/types/slam3d/edge_se3_pointxyz.cpp" />
+        <option value="$PROJECT_DIR$/g2o/examples/dynamic_slam/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/g2o/examples/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/g2o/types/slam3d/landmark_motion_ternary_edge.h" />
+        <option value="$PROJECT_DIR$/g2o/types/slam3d/landmark_motion_ternary_edge.cpp" />
+        <option value="$PROJECT_DIR$/g2o/examples/dynamic_slam/dynamic_slam_demo.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="928" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.dynamic_slam_demo">
+    <configuration name="ba_anchored_inverse_depth_demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="ba_anchored_inverse_depth_demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="ba_anchored_inverse_depth_demo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ba_demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="ba_demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="ba_demo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bal_example" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="bal_example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="bal_example">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calibration_odom_laser_library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="calibration_odom_laser_library" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="circle_fit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="circle_fit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="circle_fit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="constant_velocity_target" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="constant_velocity_target" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="constant_velocity_target">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="convertSegmentLine_application" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="convertSegmentLine_application" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="convertSegmentLine_application">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="convert_sba_slam3d" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="convert_sba_slam3d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="convert_sba_slam3d">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="core" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="core" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="create_sphere" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="create_sphere" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="create_sphere">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="csparse_extension" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="csparse_extension" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="curve_fit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="curve_fit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="curve_fit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dynamic_slam_demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="dynamic_slam_demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="dynamic_slam_demo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="freeglut_minimal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="freeglut_minimal" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="g2o_anonymize_observations_application" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="g2o_anonymize_observations_application" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="g2o_anonymize_observations_application">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="g2o_cli_application" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="g2o_cli_application" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="g2o_cli_application">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="g2o_cli_library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="g2o_cli_library" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="g2o_hierarchical_application" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="g2o_hierarchical_application" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="g2o_hierarchical_application">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="g2o_hierarchical_library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="g2o_hierarchical_library" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="g2o_incremental_application" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="g2o_incremental_application" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="g2o_incremental_application">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="g2o_incremental_library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="g2o_incremental_library" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="g2o_interactive_library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="g2o_interactive_library" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="g2o_online_application" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="g2o_online_application" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="g2o_online_application">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="g2o_simulator2d_application" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="g2o_simulator2d_application" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="g2o_simulator2d_application">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="g2o_simulator3d_application" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="g2o_simulator3d_application" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="g2o_simulator3d_application">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="g2o_simulator_library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="g2o_simulator_library" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="g2o_viewer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="g2o_viewer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="g2o_viewer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gicp_demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="gicp_demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="gicp_demo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gicp_sba_demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="gicp_sba_demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="gicp_sba_demo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="interface_library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="interface_library" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="opengl_helper" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="opengl_helper" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="parser_library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="parser_library" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sba_demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="sba_demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="sba_demo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sclam_laser_calib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="sclam_laser_calib" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="sclam_laser_calib">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sclam_odom_laser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="sclam_odom_laser" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="sclam_odom_laser">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sclam_pure_calibration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="sclam_pure_calibration" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="sclam_pure_calibration">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simple_optimize" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="simple_optimize" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="simple_optimize">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simulator_3d_line" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="simulator_3d_line" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="simulator_3d_line">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simulator_3d_plane" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="simulator_3d_plane" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="simulator_3d_plane">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="slam2d_g2o" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="slam2d_g2o" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="slam2d_g2o">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="solver_cholmod" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="solver_cholmod" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="solver_csparse" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="solver_csparse" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="solver_dense" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="solver_dense" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="solver_eigen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="solver_eigen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="solver_pcg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="solver_pcg" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="solver_slam2d_linear" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="solver_slam2d_linear" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="solver_structure_only" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="solver_structure_only" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="static_target" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="static_target" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="static_target">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stuff" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="stuff" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tutorial_slam2d" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="tutorial_slam2d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="g2o" RUN_TARGET_NAME="tutorial_slam2d">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tutorial_slam2d_library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="tutorial_slam2d_library" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="types_data" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="types_data" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="types_icp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="types_icp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="types_sba" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="types_sba" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="types_sclam2d" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="types_sclam2d" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="types_sim3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="types_sim3" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="types_slam2d" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="types_slam2d" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="types_slam2d_addons" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="types_slam2d_addons" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="types_slam3d" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="types_slam3d" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="types_slam3d_addons" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="types_slam3d_addons" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="viewer_library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="g2o" TARGET_NAME="viewer_library" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.ba_anchored_inverse_depth_demo" />
+      <item itemvalue="CMake Application.ba_demo" />
+      <item itemvalue="CMake Application.bal_example" />
+      <item itemvalue="CMake Application.calibration_odom_laser_library" />
+      <item itemvalue="CMake Application.circle_fit" />
+      <item itemvalue="CMake Application.constant_velocity_target" />
+      <item itemvalue="CMake Application.convertSegmentLine_application" />
+      <item itemvalue="CMake Application.convert_sba_slam3d" />
+      <item itemvalue="CMake Application.core" />
+      <item itemvalue="CMake Application.create_sphere" />
+      <item itemvalue="CMake Application.csparse_extension" />
+      <item itemvalue="CMake Application.curve_fit" />
+      <item itemvalue="CMake Application.dynamic_slam_demo" />
+      <item itemvalue="CMake Application.freeglut_minimal" />
+      <item itemvalue="CMake Application.g2o_anonymize_observations_application" />
+      <item itemvalue="CMake Application.g2o_cli_application" />
+      <item itemvalue="CMake Application.g2o_cli_library" />
+      <item itemvalue="CMake Application.g2o_hierarchical_application" />
+      <item itemvalue="CMake Application.g2o_hierarchical_library" />
+      <item itemvalue="CMake Application.g2o_incremental_application" />
+      <item itemvalue="CMake Application.g2o_incremental_library" />
+      <item itemvalue="CMake Application.g2o_interactive_library" />
+      <item itemvalue="CMake Application.g2o_online_application" />
+      <item itemvalue="CMake Application.g2o_simulator2d_application" />
+      <item itemvalue="CMake Application.g2o_simulator3d_application" />
+      <item itemvalue="CMake Application.g2o_simulator_library" />
+      <item itemvalue="CMake Application.g2o_viewer" />
+      <item itemvalue="CMake Application.gicp_demo" />
+      <item itemvalue="CMake Application.gicp_sba_demo" />
+      <item itemvalue="CMake Application.interface_library" />
+      <item itemvalue="CMake Application.opengl_helper" />
+      <item itemvalue="CMake Application.parser_library" />
+      <item itemvalue="CMake Application.sba_demo" />
+      <item itemvalue="CMake Application.sclam_laser_calib" />
+      <item itemvalue="CMake Application.sclam_odom_laser" />
+      <item itemvalue="CMake Application.sclam_pure_calibration" />
+      <item itemvalue="CMake Application.simple_optimize" />
+      <item itemvalue="CMake Application.simulator_3d_line" />
+      <item itemvalue="CMake Application.simulator_3d_plane" />
+      <item itemvalue="CMake Application.slam2d_g2o" />
+      <item itemvalue="CMake Application.solver_cholmod" />
+      <item itemvalue="CMake Application.solver_csparse" />
+      <item itemvalue="CMake Application.solver_dense" />
+      <item itemvalue="CMake Application.solver_eigen" />
+      <item itemvalue="CMake Application.solver_pcg" />
+      <item itemvalue="CMake Application.solver_slam2d_linear" />
+      <item itemvalue="CMake Application.solver_structure_only" />
+      <item itemvalue="CMake Application.static_target" />
+      <item itemvalue="CMake Application.stuff" />
+      <item itemvalue="CMake Application.tutorial_slam2d" />
+      <item itemvalue="CMake Application.tutorial_slam2d_library" />
+      <item itemvalue="CMake Application.types_data" />
+      <item itemvalue="CMake Application.types_icp" />
+      <item itemvalue="CMake Application.types_sba" />
+      <item itemvalue="CMake Application.types_sclam2d" />
+      <item itemvalue="CMake Application.types_sim3" />
+      <item itemvalue="CMake Application.types_slam2d" />
+      <item itemvalue="CMake Application.types_slam2d_addons" />
+      <item itemvalue="CMake Application.types_slam3d" />
+      <item itemvalue="CMake Application.types_slam3d_addons" />
+      <item itemvalue="CMake Application.viewer_library" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31fa019a-9c17-4ff0-b9a7-750b3e249635" name="Default Changelist" comment="" />
+      <created>1569813258072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569813258072</updated>
+      <workItem from="1569813261523" duration="7665000" />
+      <workItem from="1569982766949" duration="1274000" />
+      <workItem from="1569984103369" duration="15279000" />
+      <workItem from="1570501796523" duration="39228000" />
+      <workItem from="1570678034629" duration="4251000" />
+      <workItem from="1570686575338" duration="98000" />
+      <workItem from="1570686989633" duration="124000" />
+      <workItem from="1570687303258" duration="204000" />
+      <workItem from="1570687519471" duration="8000" />
+      <workItem from="1570687548036" duration="98000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="68229000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925585" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39959225" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32925585" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32960325" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32858595" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>derived()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>H-&gt;estimate()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>point1-&gt;estimate()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>assert(c &lt;(int)_blockCols.size() &amp;&amp; &quot;accessing column which is not available&quot;);</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(int)_blockCols.size()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/edge_xyz_prior.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/isometry3d_mappings.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#1507#1540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/examples/ba/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/core/block_solver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/eigen3/Eigen/src/Core/DenseBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="226" selection-start-line="226" selection-end-line="226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/examples/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/core/hyper_graph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/edge_se3.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/core/optimizable_graph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="453" column="28" selection-start-line="453" selection-start-column="28" selection-end-line="453" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/core/parameter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/sba/types_six_dof_expmap.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="163" column="27" selection-start-line="163" selection-start-column="20" selection-end-line="163" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/sba/types_six_dof_expmap.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="122" column="28" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/examples/tutorial_slam2d/types_tutorial_slam2d.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/solvers/csparse/linear_solver_csparse.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <folding>
+            <element signature="e#1495#1522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/examples/sba/sba_demo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2776">
+          <caret line="310" column="19" selection-start-line="310" selection-start-column="10" selection-end-line="310" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/examples/simple_optimize/simple_optimize.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/examples/slam2d/slam2d_g2o.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+          <folding>
+            <element signature="e#754#773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/core/sparse_block_matrix_ccs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="254" column="16" selection-start-line="254" selection-start-column="16" selection-end-line="254" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/eigen3/Eigen/src/Geometry/Transform.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="1168" selection-start-line="1168" selection-end-line="1168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/eigen3/Eigen/src/Core/Assign.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="570" selection-start-line="570" selection-end-line="570" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="504" selection-start-line="504" selection-end-line="504" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/core/sparse_optimizer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="399" selection-start-line="399" selection-end-line="399" />
+          <folding>
+            <element signature="e#1424#1453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/eigen3/Eigen/src/Core/Transpose.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/landmark_motion_ternary_edge.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/edge_se3_pointxyz.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
+          <folding>
+            <element signature="e#1493#1531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/eigen3/Eigen/src/Core/Matrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="249" selection-start-line="249" selection-end-line="249" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/core/sparse_block_matrix.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/core/block_solver.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1978">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/core/optimization_algorithm_levenberg.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/edge_pointxyz.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-801" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/edge_pointxyz.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/edge_se3_pointxyz.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1134">
+          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/examples/ba/ba_demo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1386">
+          <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/examples/tutorial_slam2d/tutorial_slam2d.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="95" column="50" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/se3quat.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="299" selection-start-line="299" selection-end-line="299" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/types_slam3d.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/se3_ops.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/edge_se3_lotsofxyz.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="75" column="15" lean-forward="true" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/edge_se3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="654" selection-start-line="654" selection-end-line="654" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/edge_se3_prior.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/types_slam3d.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding>
+            <element signature="e#1424#1449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/core/optimizable_graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/landmark_motion_ternary_edge.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam/dynamic_slam_demo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="102" column="18" lean-forward="true" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
