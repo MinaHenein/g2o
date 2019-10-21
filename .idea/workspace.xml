@@ -73,115 +73,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31fa019a-9c17-4ff0-b9a7-750b3e249635" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/g2o.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/g2o.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/EXTERNAL/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/EXTERNAL/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/EXTERNAL/freeglut/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/EXTERNAL/freeglut/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_cli/CMakeFiles/g2o_cli_application.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_cli/CMakeFiles/g2o_cli_application.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_cli/CMakeFiles/g2o_cli_library.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_cli/CMakeFiles/g2o_cli_library.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_hierarchical/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_hierarchical/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_simulator/CMakeFiles/g2o_anonymize_observations_application.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_simulator/CMakeFiles/g2o_anonymize_observations_application.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator2d_application.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator2d_application.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator3d_application.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator3d_application.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_simulator/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_simulator/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_viewer/CMakeFiles/g2o_viewer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_viewer/CMakeFiles/g2o_viewer.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/core/CMakeFiles/core.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/core/CMakeFiles/core.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/core/CMakeFiles/core.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/core/CMakeFiles/core.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/core/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/core/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/ba/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/ba/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/ba_anchored_inverse_depth/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/ba_anchored_inverse_depth/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/bal/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/bal/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/calibration_odom_laser/CMakeFiles/sclam_laser_calib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/calibration_odom_laser/CMakeFiles/sclam_laser_calib.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/calibration_odom_laser/CMakeFiles/sclam_odom_laser.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/calibration_odom_laser/CMakeFiles/sclam_odom_laser.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/calibration_odom_laser/CMakeFiles/sclam_pure_calibration.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/calibration_odom_laser/CMakeFiles/sclam_pure_calibration.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/data_convert/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/data_convert/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/data_fitting/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/data_fitting/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam/CMakeFiles/dynamic_slam_demo.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam/CMakeFiles/dynamic_slam_demo.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam/CMakeFiles/dynamic_slam_demo.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam/CMakeFiles/dynamic_slam_demo.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam/CMakeFiles/dynamic_slam_demo.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam/CMakeFiles/dynamic_slam_demo.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/icp/CMakeFiles/gicp_demo.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/icp/CMakeFiles/gicp_demo.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/icp/CMakeFiles/gicp_sba_demo.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/icp/CMakeFiles/gicp_sba_demo.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/icp/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/icp/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_application.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_application.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/slam_parser/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/slam_parser/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/plane_slam/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/plane_slam/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/sba/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/sba/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/sba/CMakeFiles/sba_demo.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/sba/CMakeFiles/sba_demo.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/simple_optimize/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/simple_optimize/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/slam2d/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/slam2d/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/sphere/CMakeFiles/create_sphere.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/sphere/CMakeFiles/create_sphere.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/target/CMakeFiles/constant_velocity_target.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/target/CMakeFiles/constant_velocity_target.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/target/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/target/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/tutorial_slam2d/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/tutorial_slam2d/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/cholmod/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/cholmod/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/cholmod/CMakeFiles/solver_cholmod.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/cholmod/CMakeFiles/solver_cholmod.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/csparse/CMakeFiles/csparse_extension.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/csparse/CMakeFiles/csparse_extension.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/csparse/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/csparse/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/csparse/CMakeFiles/solver_csparse.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/csparse/CMakeFiles/solver_csparse.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/dense/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/dense/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/eigen/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/eigen/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/pcg/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/pcg/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/pcg/CMakeFiles/solver_pcg.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/pcg/CMakeFiles/solver_pcg.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/slam2d_linear/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/slam2d_linear/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/structure_only/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/solvers/structure_only/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/stuff/CMakeFiles/opengl_helper.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/stuff/CMakeFiles/opengl_helper.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/stuff/CMakeFiles/stuff.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/stuff/CMakeFiles/stuff.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/icp/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/icp/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/sba/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/sba/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/sba/CMakeFiles/types_sba.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/sba/CMakeFiles/types_sba.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/sclam2d/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/sclam2d/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/sim3/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/sim3/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam2d/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam2d/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam2d/CMakeFiles/types_slam2d.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam2d/CMakeFiles/types_slam2d.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam2d_addons/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam2d_addons/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/g2o/examples/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/examples/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/g2o/examples/dynamic_slam/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/examples/dynamic_slam/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/g2o/examples/dynamic_slam/dynamic_slam_demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/examples/dynamic_slam/dynamic_slam_demo.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/g2o/types/slam3d/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/types/slam3d/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/g2o/types/slam3d/landmark_motion_ternary_edge.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/types/slam3d/landmark_motion_ternary_edge.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/g2o/types/slam3d/types_slam3d.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/types/slam3d/types_slam3d.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/g2o/types/slam3d/types_slam3d.h" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/types/slam3d/types_slam3d.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph_incremental.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph_incremental.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -200,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="192" selection-start-line="192" selection-end-line="192" />
+            <state relative-caret-position="474">
+              <caret line="204" column="27" selection-start-line="204" selection-start-column="27" selection-end-line="204" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -212,11 +106,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph_incremental.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="191" selection-start-line="191" selection-end-line="191" />
+            <state relative-caret-position="345">
+              <caret line="210" column="58" selection-start-line="210" selection-start-column="58" selection-end-line="210" selection-end-column="58" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/eigen3/Eigen/src/Core/Matrix.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="240" selection-start-line="240" selection-end-line="240" />
             </state>
           </provider>
         </entry>
@@ -749,12 +652,12 @@
       <workItem from="1570694183311" duration="18000" />
       <workItem from="1570694225341" duration="26000" />
       <workItem from="1570694999017" duration="16000" />
-      <workItem from="1570753704793" duration="81148000" />
+      <workItem from="1570753704793" duration="84540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149455000" />
+    <option name="totallyTimeSpent" value="152847000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -769,13 +672,13 @@
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24046434" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24046434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32925585" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39959225" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39959225" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3119266" />
@@ -801,6 +704,16 @@
           <url>file://$PROJECT_DIR$/g2o/types/slam3d/types_slam3d.cpp</url>
           <line>26</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph_incremental.cpp</url>
+          <line>210</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph_incremental.cpp</url>
+          <line>214</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -855,13 +768,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/g2o/core/sparse_block_matrix.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/g2o/core/block_solver.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1978">
@@ -1182,8 +1088,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam/dynamic_slam_demo.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+        <state relative-caret-position="375">
+          <caret line="216" column="21" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="21" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1192,18 +1098,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph_incremental.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        <state relative-caret-position="345">
+          <caret line="210" column="58" selection-start-line="210" selection-start-column="58" selection-end-line="210" selection-end-column="58" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/include/eigen3/Eigen/src/Core/Matrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="192" selection-start-line="192" selection-end-line="192" />
+        <state relative-caret-position="474">
+          <caret line="204" column="27" selection-start-line="204" selection-start-column="27" selection-end-line="204" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

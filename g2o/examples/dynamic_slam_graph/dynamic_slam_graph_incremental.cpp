@@ -196,13 +196,21 @@ int main(){
     pose_prior->setMeasurement(gt_camera_poses.at(0));
     pose_prior->information() =  MatrixXd::Identity(6, 6)*10000;
     pose_prior->setParameterId(0, 0);
+    pose_prior->setLevel(0);
     optimizer.addEdge(pose_prior);
 
     g2o::EdgeXYZPrior * point_prior = new g2o::EdgeXYZPrior();
     point_prior->setVertex(0, optimizer.vertex(point_vertices.at(0)));
     point_prior->setMeasurement(gt_point_positions.at(0));
     point_prior->information() =  Matrix3::Identity()*10000;
-    optimizer.addEdge(pose_prior);
+    point_prior->setLevel(0);
+    optimizer.addEdge(point_prior);
+
+
+    int n = sizeof(camera_vertices)/sizeof(camera_vertices[0]);
+    auto itr = find(camera_vertices, camera_vertices+n, 81);
+    distance(arr, itr)
+
 
     for (size_t i=0; i<odom_measurements_vertices.size(); ++i) {
         g2o::EdgeSE3 * ep = new g2o::EdgeSE3();
@@ -215,6 +223,7 @@ int main(){
             ep->setRobustKernel(rk);
             ep->robustKernel()->setDelta(0.01);
         }
+
         optimizer.addEdge(ep);
     }
     for (size_t i=0; i<point_measurements_vertices.size(); ++i) {

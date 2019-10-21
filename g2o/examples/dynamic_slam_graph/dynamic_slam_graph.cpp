@@ -202,7 +202,7 @@ int main(){
     point_prior->setVertex(0, optimizer.vertex(point_vertices.at(0)));
     point_prior->setMeasurement(gt_point_positions.at(0));
     point_prior->information() =  Matrix3::Identity()*10000;
-    optimizer.addEdge(pose_prior);
+    optimizer.addEdge(point_prior);
 
     for (size_t i=0; i<odom_measurements_vertices.size(); ++i) {
         g2o::EdgeSE3 * ep = new g2o::EdgeSE3();
@@ -251,7 +251,8 @@ int main(){
         g2o::EdgeSE3Altitude * ea = new g2o::EdgeSE3Altitude();
         ea->setVertex(0, optimizer.vertex(motion_vertices.at(i)));
         ea->setMeasurement(0);
-        Matrix<double, 1, 1> altitude_information(25);
+        Matrix<double, 1, 1> altitude_information;
+        altitude_information << 25;
         ea->information() = altitude_information;
         optimizer.addEdge(ea);
     }
