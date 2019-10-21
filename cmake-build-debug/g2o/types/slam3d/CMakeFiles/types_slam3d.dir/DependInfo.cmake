@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mina/data/mina/workspace/src/Git/g2o/g2o/types/slam3d/dquat2mat.cpp" "/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/dquat2mat.cpp.o"
   "/home/mina/data/mina/workspace/src/Git/g2o/g2o/types/slam3d/edge_pointxyz.cpp" "/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_pointxyz.cpp.o"
   "/home/mina/data/mina/workspace/src/Git/g2o/g2o/types/slam3d/edge_se3.cpp" "/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3.cpp.o"
+  "/home/mina/data/mina/workspace/src/Git/g2o/g2o/types/slam3d/edge_se3_altitude.cpp" "/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_altitude.cpp.o"
   "/home/mina/data/mina/workspace/src/Git/g2o/g2o/types/slam3d/edge_se3_lotsofxyz.cpp" "/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_lotsofxyz.cpp.o"
   "/home/mina/data/mina/workspace/src/Git/g2o/g2o/types/slam3d/edge_se3_offset.cpp" "/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_offset.cpp.o"
   "/home/mina/data/mina/workspace/src/Git/g2o/g2o/types/slam3d/edge_se3_pointxyz.cpp" "/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz.cpp.o"

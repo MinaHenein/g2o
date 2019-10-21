@@ -34,6 +34,8 @@ add_library(types_slam3d ${G2O_LIB_TYPE}
   edge_xyz_prior.h
   landmark_motion_ternary_edge.cpp
   landmark_motion_ternary_edge.h
+  edge_se3_altitude.cpp
+  edge_se3_altitude.h
   se3quat.h
   se3_ops.h se3_ops.hpp
   edge_pointxyz.cpp edge_pointxyz.h

@@ -3,6 +3,7 @@
 #include <stdint.h>
 
 #include "g2o/core/sparse_optimizer.h"
+#include "g2o/core/sparse_optimizer_terminate_action.h"
 #include "g2o/core/block_solver.h"
 #include "g2o/core/solver.h"
 #include "g2o/core/optimization_algorithm_levenberg.h"
@@ -29,6 +30,9 @@ int main(){
   //OptimizationAlgorithmLevenberg* solver = new OptimizationAlgorithmLevenberg(std::move(g2o::make_unique<BlockSolver_6_3>(std::move(linearSolver))));
   optimizer.setAlgorithm(solver);
 
+  SparseOptimizerTerminateAction* terminateAction = new SparseOptimizerTerminateAction;
+  terminateAction->setGainThreshold(1e-4);
+  optimizer.addPostIterationAction(terminateAction);
 
   g2o::ParameterSE3Offset* cameraOffset = new g2o::ParameterSE3Offset;
   cameraOffset->setId(0);
@@ -104,15 +108,16 @@ int main(){
   v7_p->setEstimate(Vector3d(10.975083, -0.046284, -3.106853));
   optimizer.addVertex(v7_p);
 
-    //Matrix<double,4,4> pose_prior;
-    //pose_prior << 0.9823, 0.1860, 0.0204, -0.6088, -0.1861, 0.9825, 0.0021, -2.3902, -0.0196, -0.0059, 0.9998, -0.1250, 0, 0, 0, 1;
-    //g2o::EdgeSE3Prior * prior = new g2o::EdgeSE3Prior();
-    //prior->setVertex(0, dynamic_cast<g2o::OptimizableGraph::Vertex*>(v1_se3));
-    //Matrix<double,3,3> prior_R = pose_prior.block<3,3>(0,0);
-    //Matrix<double,3,1> prior_t = pose_prior.block<3,1>(0,3);
-    //prior->setMeasurement(g2o::SE3Quat(prior_R,prior_t));
-    //prior->information() =  MatrixXd::Identity(6, 6)*10000;
-    //optimizer.addEdge(prior);
+  //Matrix<double,4,4> pose_prior;
+  //pose_prior << 0.9823, 0.1860, 0.0204, -0.6088, -0.1861, 0.9825, 0.0021, -2.3902, -0.0196, -0.0059, 0.9998, -0.1250, 0, 0, 0, 1;
+  //g2o::EdgeSE3Prior * prior = new g2o::EdgeSE3Prior();
+  //prior->setVertex(0, dynamic_cast<g2o::OptimizableGraph::Vertex*>(v1_se3));
+  //Matrix<double,3,3> prior_R = pose_prior.block<3,3>(0,0);
+  //Matrix<double,3,1> prior_t = pose_prior.block<3,1>(0,3);
+  //prior->setMeasurement(g2o::SE3Quat(prior_R,prior_t));
+  //prior->information() =  MatrixXd::Identity(6, 6)*10000;
+  //prior->setParameterId(0, 0);
+  //optimizer.addEdge(prior);
   
   Matrix<double,4,4> odom1;
   odom1 << 1.0000, -0.0036, 0.0093, 0.6371, 0.0034, 0.9999, 0.0143, 0.2856, -0.0094, -0.0143, 0.9999, -0.0285, 0, 0, 0, 1;
@@ -122,10 +127,10 @@ int main(){
   Matrix<double,3,3> odom1_R = odom1.block<3,3>(0,0);
   Matrix<double,3,1> odom1_t = odom1.block<3,1>(0,3);
   ep1->setMeasurement(g2o::SE3Quat(odom1_R,odom1_t));
-  Matrix<double,6,6> odomCov;
-  odomCov << 1111, 0, 0, 0, 0, 0, 0, 1111, 0, 0, 0, 0, 0, 0, 1111, 0, 0, 0,
+  Matrix<double,6,6> odomInf;
+  odomInf << 1111, 0, 0, 0, 0, 0, 0, 1111, 0, 0, 0, 0, 0, 0, 1111, 0, 0, 0,
   0, 0, 0, 3344, 0, 0, 0, 0, 0, 0, 3225, 0, 0, 0, 0, 0, 0, 3344;
-  ep1->information() = odomCov;
+  ep1->information() = odomInf;
   optimizer.addEdge(ep1);
 
   Matrix<double,4,4> odom2;
@@ -136,7 +141,7 @@ int main(){
   Matrix<double,3,3> odom2_R = odom2.block<3,3>(0,0);
   Matrix<double,3,1> odom2_t = odom2.block<3,1>(0,3);
   ep2->setMeasurement(g2o::SE3Quat(odom2_R,odom2_t));
-  ep2->information() = odomCov;
+  ep2->information() = odomInf;
   optimizer.addEdge(ep2);
   
   g2o::EdgeSE3PointXYZ * e1 = new g2o::EdgeSE3PointXYZ();
@@ -245,7 +250,6 @@ int main(){
   //translation - rotation (axis angle)
   //EST VERTEX_SE3Motion 1.545310 0.258439 0.193898 0.121768 0.037370 -0.050644
   //GT  VERTEX_SE3Motion 1.4826 -0.2018 0.0099 0.0049 0.0011 0.0500
-
   //G2O output
   //EST VERTEX_SE3Motion 1.41851 -0.10674 -0.153712 -0.0269 0.0000 0.0695
 }

@@ -9,6 +9,7 @@ if(CHOLMOD_FOUND)
   add_subdirectory(ba)
   add_subdirectory(ba_anchored_inverse_depth)
   add_subdirectory(dynamic_slam)
+  add_subdirectory(dynamic_slam_graph)
 endif(CHOLMOD_FOUND)
 
 # Examples which explicitly use CSparse

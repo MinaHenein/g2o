@@ -699,6 +699,19 @@ dynamic_slam_demo/fast:
 .PHONY : dynamic_slam_demo/fast
 
 #=============================================================================
+# Target rules for targets named dynamic_slam_graph
+
+# Build rule for target.
+dynamic_slam_graph: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_slam_graph
+.PHONY : dynamic_slam_graph
+
+# fast build rule for target.
+dynamic_slam_graph/fast:
+	$(MAKE) -f g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/build.make g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/build
+.PHONY : dynamic_slam_graph/fast
+
+#=============================================================================
 # Target rules for targets named tutorial_slam2d
 
 # Build rule for target.
@@ -1025,6 +1038,7 @@ help:
 	@echo "... ba_demo"
 	@echo "... ba_anchored_inverse_depth_demo"
 	@echo "... dynamic_slam_demo"
+	@echo "... dynamic_slam_graph"
 	@echo "... tutorial_slam2d"
 	@echo "... tutorial_slam2d_library"
 	@echo "... gicp_sba_demo"

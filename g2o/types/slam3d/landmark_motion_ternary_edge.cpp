@@ -57,12 +57,12 @@ void LandmarkMotionTernaryEdge::linearizeOplus()
     Vector3 invHl2 = H->estimate().inverse()*point2->estimate();
 
     // jacobian wrt H
-    J(0,4) =  invHl2(2);
-    J(0,5) = -invHl2(1);
-    J(1,3) = -invHl2(2);
-    J(1,5) =  invHl2(0);
-    J(2,3) =  invHl2(1);
-    J(2,4) = -invHl2(0);
+    J(0,4) =  2*invHl2(2);
+    J(0,5) = -2*invHl2(1);
+    J(1,3) = -2*invHl2(2);
+    J(1,5) =  2*invHl2(0);
+    J(2,3) =  2*invHl2(1);
+    J(2,4) = -2*invHl2(0);
 
     Eigen::Matrix<number_t,3,6,Eigen::ColMajor> Jhom = J;
 

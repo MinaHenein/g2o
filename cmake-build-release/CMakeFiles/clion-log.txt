@@ -1,0 +1,21 @@
+/home/mina/Documents/clion-2019.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/mina/data/mina/workspace/src/Git/g2o
+-- Compiling on Unix
+-- Found CHOLMOD and its dependencies
+-- Compiling with OpenGL support
+-- Compiling g2o apps
+-- Compiling g2o examples
+-- Compiling with GCC
+CMake Deprecation Warning at g2o/apps/g2o_cli/CMakeLists.txt:26 (cmake_policy):
+  The OLD behavior for policy CMP0043 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Generating position indpendent code for slam2d because Qt5 was built with -reduce-relocations
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-release

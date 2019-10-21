@@ -41,6 +41,7 @@
 #include "parameter_se3_offset.h"
 #include "edge_se3_pointxyz.h"
 #include "landmark_motion_ternary_edge.h"
+#include "edge_se3_altitude.h"
 #include "edge_se3_offset.h"
 
 #include "parameter_camera.h"

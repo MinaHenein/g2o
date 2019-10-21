@@ -5,7 +5,7 @@
 		<Option title="g2o"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\EXTERNAL\;CMake Files\EXTERNAL\freeglut\;CMake Files\g2o\;CMake Files\g2o\stuff\;CMake Files\g2o\core\;CMake Files\g2o\apps\;CMake Files\g2o\apps\g2o_cli\;CMake Files\g2o\apps\g2o_hierarchical\;CMake Files\g2o\apps\g2o_simulator\;CMake Files\g2o\apps\g2o_viewer\;CMake Files\g2o\types\;CMake Files\g2o\types\data\;CMake Files\g2o\types\slam2d\;CMake Files\g2o\types\slam3d\;CMake Files\g2o\types\sba\;CMake Files\g2o\types\sim3\;CMake Files\g2o\types\icp\;CMake Files\g2o\types\sclam2d\;CMake Files\g2o\types\slam2d_addons\;CMake Files\g2o\types\slam3d_addons\;CMake Files\g2o\solvers\;CMake Files\g2o\solvers\pcg\;CMake Files\g2o\solvers\dense\;CMake Files\g2o\solvers\structure_only\;CMake Files\g2o\solvers\csparse\;CMake Files\g2o\solvers\slam2d_linear\;CMake Files\g2o\solvers\cholmod\;CMake Files\g2o\solvers\eigen\;CMake Files\g2o\examples\;CMake Files\g2o\examples\data_fitting\;CMake Files\g2o\examples\sphere\;CMake Files\g2o\examples\target\;CMake Files\g2o\examples\ba\;CMake Files\g2o\examples\ba_anchored_inverse_depth\;CMake Files\g2o\examples\dynamic_slam\;CMake Files\g2o\examples\tutorial_slam2d\;CMake Files\g2o\examples\icp\;CMake Files\g2o\examples\calibration_odom_laser\;CMake Files\g2o\examples\simple_optimize\;CMake Files\g2o\examples\plane_slam\;CMake Files\g2o\examples\line_slam\;CMake Files\g2o\examples\sba\;CMake Files\g2o\examples\bal\;CMake Files\g2o\examples\slam2d\;CMake Files\g2o\examples\data_convert\;CMake Files\g2o\examples\interactive_slam\;CMake Files\g2o\examples\interactive_slam\slam_parser\;CMake Files\g2o\examples\interactive_slam\slam_parser\parser\;CMake Files\g2o\examples\interactive_slam\slam_parser\interface\;CMake Files\g2o\examples\interactive_slam\g2o_interactive\;CMake Files\g2o\examples\interactive_slam\g2o_incremental\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\EXTERNAL\;CMake Files\EXTERNAL\freeglut\;CMake Files\g2o\;CMake Files\g2o\stuff\;CMake Files\g2o\core\;CMake Files\g2o\apps\;CMake Files\g2o\apps\g2o_cli\;CMake Files\g2o\apps\g2o_hierarchical\;CMake Files\g2o\apps\g2o_simulator\;CMake Files\g2o\apps\g2o_viewer\;CMake Files\g2o\types\;CMake Files\g2o\types\data\;CMake Files\g2o\types\slam2d\;CMake Files\g2o\types\slam3d\;CMake Files\g2o\types\sba\;CMake Files\g2o\types\sim3\;CMake Files\g2o\types\icp\;CMake Files\g2o\types\sclam2d\;CMake Files\g2o\types\slam2d_addons\;CMake Files\g2o\types\slam3d_addons\;CMake Files\g2o\solvers\;CMake Files\g2o\solvers\pcg\;CMake Files\g2o\solvers\dense\;CMake Files\g2o\solvers\structure_only\;CMake Files\g2o\solvers\csparse\;CMake Files\g2o\solvers\slam2d_linear\;CMake Files\g2o\solvers\cholmod\;CMake Files\g2o\solvers\eigen\;CMake Files\g2o\examples\;CMake Files\g2o\examples\data_fitting\;CMake Files\g2o\examples\sphere\;CMake Files\g2o\examples\target\;CMake Files\g2o\examples\ba\;CMake Files\g2o\examples\ba_anchored_inverse_depth\;CMake Files\g2o\examples\dynamic_slam\;CMake Files\g2o\examples\dynamic_slam_graph\;CMake Files\g2o\examples\tutorial_slam2d\;CMake Files\g2o\examples\icp\;CMake Files\g2o\examples\calibration_odom_laser\;CMake Files\g2o\examples\simple_optimize\;CMake Files\g2o\examples\plane_slam\;CMake Files\g2o\examples\line_slam\;CMake Files\g2o\examples\sba\;CMake Files\g2o\examples\bal\;CMake Files\g2o\examples\slam2d\;CMake Files\g2o\examples\data_convert\;CMake Files\g2o\examples\interactive_slam\;CMake Files\g2o\examples\interactive_slam\slam_parser\;CMake Files\g2o\examples\interactive_slam\slam_parser\parser\;CMake Files\g2o\examples\interactive_slam\slam_parser\interface\;CMake Files\g2o\examples\interactive_slam\g2o_interactive\;CMake Files\g2o\examples\interactive_slam\g2o_incremental\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug"/>
@@ -2351,6 +2351,64 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="dynamic_slam_graph">
+				<Option output="/home/mina/data/mina/workspace/src/Git/g2o/bin/dynamic_slam_graph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mina/data/mina/workspace/src/Git/g2o/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNIX"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/mina/data/mina/workspace/src/Git/g2o"/>
+					<Add directory="/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 dynamic_slam_graph"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynamic_slam_graph/fast">
+				<Option output="/home/mina/data/mina/workspace/src/Git/g2o/bin/dynamic_slam_graph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mina/data/mina/workspace/src/Git/g2o/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNIX"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/mina/data/mina/workspace/src/Git/g2o"/>
+					<Add directory="/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 dynamic_slam_graph/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="tutorial_slam2d">
 				<Option output="/home/mina/data/mina/workspace/src/Git/g2o/bin/tutorial_slam2d_d" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/mina/data/mina/workspace/src/Git/g2o/bin"/>
@@ -4128,6 +4186,9 @@
 		<Unit filename="/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/dynamic_slam/dynamic_slam_demo.cpp">
 			<Option target="dynamic_slam_demo"/>
 		</Unit>
+		<Unit filename="/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/dynamic_slam_graph/dynamic_slam_graph.cpp">
+			<Option target="dynamic_slam_graph"/>
+		</Unit>
 		<Unit filename="/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/icp/gicp_demo.cpp">
 			<Option target="gicp_demo"/>
 		</Unit>
@@ -4749,6 +4810,12 @@
 		<Unit filename="/home/mina/data/mina/workspace/src/Git/g2o/g2o/types/slam3d/edge_se3.h">
 			<Option target="types_slam3d"/>
 		</Unit>
+		<Unit filename="/home/mina/data/mina/workspace/src/Git/g2o/g2o/types/slam3d/edge_se3_altitude.cpp">
+			<Option target="types_slam3d"/>
+		</Unit>
+		<Unit filename="/home/mina/data/mina/workspace/src/Git/g2o/g2o/types/slam3d/edge_se3_altitude.h">
+			<Option target="types_slam3d"/>
+		</Unit>
 		<Unit filename="/home/mina/data/mina/workspace/src/Git/g2o/g2o/types/slam3d/edge_se3_lotsofxyz.cpp">
 			<Option target="types_slam3d"/>
 		</Unit>
@@ -5117,6 +5184,9 @@
 		</Unit>
 		<Unit filename="/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/dynamic_slam/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\g2o\examples\dynamic_slam\"/>
+		</Unit>
+		<Unit filename="/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/dynamic_slam_graph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\g2o\examples\dynamic_slam_graph\"/>
 		</Unit>
 		<Unit filename="/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/tutorial_slam2d/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\g2o\examples\tutorial_slam2d\"/>

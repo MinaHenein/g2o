@@ -274,6 +274,33 @@ edge_se3.cpp.s:
 	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3.cpp.s
 .PHONY : edge_se3.cpp.s
 
+edge_se3_altitude.o: edge_se3_altitude.cpp.o
+
+.PHONY : edge_se3_altitude.o
+
+# target to build an object file
+edge_se3_altitude.cpp.o:
+	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_altitude.cpp.o
+.PHONY : edge_se3_altitude.cpp.o
+
+edge_se3_altitude.i: edge_se3_altitude.cpp.i
+
+.PHONY : edge_se3_altitude.i
+
+# target to preprocess a source file
+edge_se3_altitude.cpp.i:
+	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_altitude.cpp.i
+.PHONY : edge_se3_altitude.cpp.i
+
+edge_se3_altitude.s: edge_se3_altitude.cpp.s
+
+.PHONY : edge_se3_altitude.s
+
+# target to generate assembly for a file
+edge_se3_altitude.cpp.s:
+	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_altitude.cpp.s
+.PHONY : edge_se3_altitude.cpp.s
+
 edge_se3_lotsofxyz.o: edge_se3_lotsofxyz.cpp.o
 
 .PHONY : edge_se3_lotsofxyz.o
@@ -757,6 +784,9 @@ help:
 	@echo "... edge_se3.o"
 	@echo "... edge_se3.i"
 	@echo "... edge_se3.s"
+	@echo "... edge_se3_altitude.o"
+	@echo "... edge_se3_altitude.i"
+	@echo "... edge_se3_altitude.s"
 	@echo "... edge_se3_lotsofxyz.o"
 	@echo "... edge_se3_lotsofxyz.i"
 	@echo "... edge_se3_lotsofxyz.s"

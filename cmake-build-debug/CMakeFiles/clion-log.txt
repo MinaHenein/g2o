@@ -1,35 +1,10 @@
 /home/mina/Documents/clion-2019.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mina/data/mina/workspace/src/Git/g2o
--- The C compiler identification is GNU 5.5.0
--- The CXX compiler identification is GNU 5.5.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /usr/bin/c++
--- Check for working CXX compiler: /usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- Compiling on Unix
--- Found CHOLMOD: /usr/include/suitesparse  
--- Looking for sgemm_
--- Looking for sgemm_ - found
--- A library with BLAS API found.
--- Looking for cheev_
--- Looking for cheev_ - found
--- A library with LAPACK API found.
 -- Found CHOLMOD and its dependencies
--- Found CSPARSE: /usr/include/suitesparse  
--- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so   
 -- Compiling with OpenGL support
--- Found QGLVIEWER: /usr/include/QGLViewer  
 -- Compiling g2o apps
 -- Compiling g2o examples
 -- Compiling with GCC
--- Found Eigen3: /usr/local/include/eigen3 (Required is at least version "2.91.0") 
 CMake Deprecation Warning at g2o/apps/g2o_cli/CMakeLists.txt:26 (cmake_policy):
   The OLD behavior for policy CMP0043 will be removed from a future version
   of CMake.

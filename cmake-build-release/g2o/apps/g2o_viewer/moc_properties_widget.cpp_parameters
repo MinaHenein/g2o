@@ -1,0 +1,7 @@
+-I/usr/local/include/eigen3
+-I/home/mina/data/mina/workspace/src/Git/g2o
+-I/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-release
+-DUNIX
+-o
+/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-release/g2o/apps/g2o_viewer/moc_properties_widget.cpp
+/home/mina/data/mina/workspace/src/Git/g2o/g2o/apps/g2o_viewer/properties_widget.h

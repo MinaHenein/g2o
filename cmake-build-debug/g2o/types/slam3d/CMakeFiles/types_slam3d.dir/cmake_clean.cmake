@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/types_slam3d.dir/edge_se3_lotsofxyz.cpp.o"
   "CMakeFiles/types_slam3d.dir/edge_xyz_prior.cpp.o"
   "CMakeFiles/types_slam3d.dir/landmark_motion_ternary_edge.cpp.o"
+  "CMakeFiles/types_slam3d.dir/edge_se3_altitude.cpp.o"
   "CMakeFiles/types_slam3d.dir/edge_pointxyz.cpp.o"
   "CMakeFiles/types_slam3d.dir/types_slam3d.cpp.o"
   "../../../../lib/libg2o_types_slam3d_d.pdb"
