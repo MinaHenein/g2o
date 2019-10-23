@@ -2351,8 +2351,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="dynamic_slam_graph">
-				<Option output="/home/mina/data/mina/workspace/src/Git/g2o/bin/dynamic_slam_graph" prefix_auto="0" extension_auto="0"/>
+			<Target title="dynamic_slam_graph_incremental">
+				<Option output="/home/mina/data/mina/workspace/src/Git/g2o/bin/dynamic_slam_graph_incremental" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/mina/data/mina/workspace/src/Git/g2o/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -2374,14 +2374,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 dynamic_slam_graph"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 dynamic_slam_graph_incremental"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="dynamic_slam_graph/fast">
-				<Option output="/home/mina/data/mina/workspace/src/Git/g2o/bin/dynamic_slam_graph" prefix_auto="0" extension_auto="0"/>
+			<Target title="dynamic_slam_graph_incremental/fast">
+				<Option output="/home/mina/data/mina/workspace/src/Git/g2o/bin/dynamic_slam_graph_incremental" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/mina/data/mina/workspace/src/Git/g2o/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -2403,7 +2403,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 dynamic_slam_graph/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 dynamic_slam_graph_incremental/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile&quot;  VERBOSE=1 clean"/>
@@ -4186,8 +4186,8 @@
 		<Unit filename="/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/dynamic_slam/dynamic_slam_demo.cpp">
 			<Option target="dynamic_slam_demo"/>
 		</Unit>
-		<Unit filename="/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/dynamic_slam_graph/dynamic_slam_graph.cpp">
-			<Option target="dynamic_slam_graph"/>
+		<Unit filename="/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/dynamic_slam_graph/dynamic_slam_graph_incremental.cpp">
+			<Option target="dynamic_slam_graph_incremental"/>
 		</Unit>
 		<Unit filename="/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/icp/gicp_demo.cpp">
 			<Option target="gicp_demo"/>

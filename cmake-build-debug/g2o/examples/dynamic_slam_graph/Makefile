@@ -56,18 +56,6 @@ CMAKE_BINARY_DIR = /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/mina/Documents/clion-2019.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/mina/Documents/clion-2019.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -92,6 +80,17 @@ install/fast: preinstall/fast
 	/home/mina/Documents/clion-2019.1/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && /home/mina/Documents/clion-2019.1/bin/cmake/linux/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
+
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
@@ -103,16 +102,17 @@ package_source/fast: package_source
 
 .PHONY : package_source/fast
 
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && /home/mina/Documents/clion-2019.1/bin/cmake/linux/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/mina/Documents/clion-2019.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
 
-# Special rule for the target package
-package/fast: package
-
-.PHONY : package/fast
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/mina/Documents/clion-2019.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -179,46 +179,46 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/rule:
-	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/rule
-.PHONY : g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/rule
+g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/rule:
+	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/rule
+.PHONY : g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/rule
 
 # Convenience name for target.
-dynamic_slam_graph: g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/rule
+dynamic_slam_graph_incremental: g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/rule
 
-.PHONY : dynamic_slam_graph
+.PHONY : dynamic_slam_graph_incremental
 
 # fast build rule for target.
-dynamic_slam_graph/fast:
-	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && $(MAKE) -f g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/build.make g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/build
-.PHONY : dynamic_slam_graph/fast
+dynamic_slam_graph_incremental/fast:
+	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && $(MAKE) -f g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/build.make g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/build
+.PHONY : dynamic_slam_graph_incremental/fast
 
-dynamic_slam_graph.o: dynamic_slam_graph.cpp.o
+dynamic_slam_graph_incremental.o: dynamic_slam_graph_incremental.cpp.o
 
-.PHONY : dynamic_slam_graph.o
+.PHONY : dynamic_slam_graph_incremental.o
 
 # target to build an object file
-dynamic_slam_graph.cpp.o:
-	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && $(MAKE) -f g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/build.make g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/dynamic_slam_graph.cpp.o
-.PHONY : dynamic_slam_graph.cpp.o
+dynamic_slam_graph_incremental.cpp.o:
+	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && $(MAKE) -f g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/build.make g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/dynamic_slam_graph_incremental.cpp.o
+.PHONY : dynamic_slam_graph_incremental.cpp.o
 
-dynamic_slam_graph.i: dynamic_slam_graph.cpp.i
+dynamic_slam_graph_incremental.i: dynamic_slam_graph_incremental.cpp.i
 
-.PHONY : dynamic_slam_graph.i
+.PHONY : dynamic_slam_graph_incremental.i
 
 # target to preprocess a source file
-dynamic_slam_graph.cpp.i:
-	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && $(MAKE) -f g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/build.make g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/dynamic_slam_graph.cpp.i
-.PHONY : dynamic_slam_graph.cpp.i
+dynamic_slam_graph_incremental.cpp.i:
+	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && $(MAKE) -f g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/build.make g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/dynamic_slam_graph_incremental.cpp.i
+.PHONY : dynamic_slam_graph_incremental.cpp.i
 
-dynamic_slam_graph.s: dynamic_slam_graph.cpp.s
+dynamic_slam_graph_incremental.s: dynamic_slam_graph_incremental.cpp.s
 
-.PHONY : dynamic_slam_graph.s
+.PHONY : dynamic_slam_graph_incremental.s
 
 # target to generate assembly for a file
-dynamic_slam_graph.cpp.s:
-	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && $(MAKE) -f g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/build.make g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/dynamic_slam_graph.cpp.s
-.PHONY : dynamic_slam_graph.cpp.s
+dynamic_slam_graph_incremental.cpp.s:
+	cd /home/mina/data/mina/workspace/src/Git/g2o/cmake-build-debug && $(MAKE) -f g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/build.make g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/dynamic_slam_graph_incremental.cpp.s
+.PHONY : dynamic_slam_graph_incremental.cpp.s
 
 # Help Target
 help:
@@ -226,18 +226,18 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... package_source"
 	@echo "... package"
-	@echo "... dynamic_slam_graph"
+	@echo "... package_source"
+	@echo "... install/strip"
+	@echo "... dynamic_slam_graph_incremental"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
-	@echo "... dynamic_slam_graph.o"
-	@echo "... dynamic_slam_graph.i"
-	@echo "... dynamic_slam_graph.s"
+	@echo "... dynamic_slam_graph_incremental.o"
+	@echo "... dynamic_slam_graph_incremental.i"
+	@echo "... dynamic_slam_graph_incremental.s"
 .PHONY : help
 
 

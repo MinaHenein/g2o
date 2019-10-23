@@ -156,21 +156,23 @@ int main(){
     SparseOptimizer optimizer;
     optimizer.setVerbose(true);
     std::unique_ptr<BlockSolverX::LinearSolverType> linearSolver;
+    //linearSolver = g2o::make_unique<LinearSolverCholmod<BlockSolverX::PoseMatrixType>>();
     linearSolver = g2o::make_unique<LinearSolverCSparse<BlockSolverX::PoseMatrixType>>();
     //OptimizationAlgorithmLevenberg* solver = new OptimizationAlgorithmLevenberg(std::move(g2o::make_unique<BlockSolverX>(std::move(linearSolver))));
     OptimizationAlgorithmDogleg* solver = new OptimizationAlgorithmDogleg(std::move(g2o::make_unique<BlockSolverX>(std::move(linearSolver))));
     optimizer.setAlgorithm(solver);
 
-    SparseOptimizerTerminateAction* terminateAction = new SparseOptimizerTerminateAction;
-    terminateAction->setGainThreshold(1e-4);
-    optimizer.addPostIterationAction(terminateAction);
+    //SparseOptimizerTerminateAction* terminateAction = new SparseOptimizerTerminateAction;
+    //terminateAction->setGainThreshold(1e-4);
+    //optimizer.addPostIterationAction(terminateAction);
 
     g2o::ParameterSE3Offset* cameraOffset = new g2o::ParameterSE3Offset;
     cameraOffset->setId(0);
     optimizer.addParameter(cameraOffset);
 
     // add vertices
-    for (size_t i=0; i<camera_vertices.size(); ++i) {
+    int num_cameras = camera_vertices.size();
+    for (int i=0; i<num_cameras; ++i) {
         g2o::VertexSE3 *v_se3 = new g2o::VertexSE3();
         v_se3->setId(camera_vertices.at(i));
         //if (i < 1) v_se3->setFixed(true);
@@ -206,12 +208,6 @@ int main(){
     point_prior->setLevel(0);
     optimizer.addEdge(point_prior);
 
-
-    int n = sizeof(camera_vertices)/sizeof(camera_vertices[0]);
-    auto itr = find(camera_vertices, camera_vertices+n, 81);
-    distance(arr, itr)
-
-
     for (size_t i=0; i<odom_measurements_vertices.size(); ++i) {
         g2o::EdgeSE3 * ep = new g2o::EdgeSE3();
         ep->setVertex(0, optimizer.vertex(odom_measurements_vertices.at(i)[0]));
@@ -223,9 +219,10 @@ int main(){
             ep->setRobustKernel(rk);
             ep->robustKernel()->setDelta(0.01);
         }
-
+        ep->setLevel(i+1);
         optimizer.addEdge(ep);
     }
+
     for (size_t i=0; i<point_measurements_vertices.size(); ++i) {
         g2o::EdgeSE3PointXYZ * e = new g2o::EdgeSE3PointXYZ();
         e->setVertex(0, optimizer.vertex(point_measurements_vertices.at(i)[0]));
@@ -238,6 +235,9 @@ int main(){
             e->robustKernel()->setDelta(0.1);
         }
         e->setParameterId(0, 0);
+        std::vector<int>::iterator it = std::find(camera_vertices.begin(), camera_vertices.end(),point_measurements_vertices.at(i)[0]);
+        int index = std::distance(camera_vertices.begin(), it);
+        e->setLevel(index);
         optimizer.addEdge(e);
     }
 
@@ -253,6 +253,14 @@ int main(){
             em->setRobustKernel(rk);
             em->robustKernel()->setDelta(0.01);
         }
+        int time_step;
+        for (int j=0; j<num_cameras; ++j){
+            if (data_associations_vertices.at(i)[1]<camera_vertices.at(j)){
+                time_step=j-1;
+                break;
+            }
+        }
+        em->setLevel(time_step);
         optimizer.addEdge(em);
     }
 
@@ -260,15 +268,75 @@ int main(){
         g2o::EdgeSE3Altitude * ea = new g2o::EdgeSE3Altitude();
         ea->setVertex(0, optimizer.vertex(motion_vertices.at(i)));
         ea->setMeasurement(0);
-        Matrix<double, 1, 1> altitude_information(25);
+        Matrix<double, 1, 1> altitude_information;
+        altitude_information << 25;
         ea->information() = altitude_information;
+        int time_step;
+        for (int j=0; j<num_cameras; ++j){
+            if (motion_vertices.at(i)<camera_vertices.at(j)){
+                time_step=j-1;
+                break;
+            }
+        }
+        ea->setLevel(time_step);
         optimizer.addEdge(ea);
     }
 
-    optimizer.initializeOptimization();
-    optimizer.setVerbose(true);
+    vector<int> edge_levels;
+    for (SparseOptimizer::EdgeSet::iterator it = optimizer.edges().begin(); it != optimizer.edges().end(); ++it) {
+        SparseOptimizer::Edge *e = dynamic_cast<SparseOptimizer::Edge *>(*it);
+        edge_levels.push_back(e->level());
+    }
 
-    optimizer.save("dynamic_slam_graph_before_opt.g2o");
-    optimizer.optimize(1000);
-    optimizer.save("dynamic_slam_graph_after_opt.g2o");
+    int window_size = 3;
+    //camera_vertices.size()
+    for (int i=0; i<4; ++i){
+        int edge_count = 0;
+        for (SparseOptimizer::EdgeSet::iterator it = optimizer.edges().begin(); it != optimizer.edges().end(); ++it) {
+            SparseOptimizer::Edge *e = dynamic_cast<SparseOptimizer::Edge *>(*it);
+            if (e->level()<=i) e->setLevel(0);
+            /*
+            // set edges with levels <= i and within window size to level 0
+            if (e->level()<=i and (i-edge_levels.at(edge_count)<window_size)) e->setLevel(0);
+            // exclude edges previously set to level 0 if they are no longer within window size
+            if (e->level()==0 and (i-edge_levels.at(edge_count)>=window_size)) e->setLevel(10000);
+            // detect and remove loose edges
+            // odometry edge connected to a time step outside window size
+            if (e->dimension()==6){
+                std::vector<int>::iterator it = std::find(camera_vertices.begin(), camera_vertices.end(), e->vertex(0)->id());
+                int index = std::distance(camera_vertices.begin(), it);
+                if((i-index)>=window_size) e->setLevel(10000);
+            }
+            // motion edges connecting dynamic points seen by a camera at a time step outside window size
+            if (e->dimension()==3 and e->vertices().size()==3){
+                int time_step;
+                for (int j=0; j<num_cameras; ++j){
+                    if (e->vertex(0)->id()<camera_vertices.at(j)){
+                        time_step=j-1;
+                        break;
+                    }
+                }
+                if(i-time_step>=window_size) e->setLevel(10000);
+            }
+            // motion altitude edges of objects connected to dynamic points seen by a camera at a time step outside window size
+             if (e->dimension()==1){
+                int time_step;
+                for (int j=0; j<num_cameras; ++j){
+                    if (e->vertex(0)->id()<camera_vertices.at(j)){
+                        time_step=j-1;
+                        break;
+                    }
+                }
+                if(i-(time_step-1)>=window_size) e->setLevel(10000);
+            }
+            */
+            ++edge_count;
+        }
+        optimizer.initializeOptimization(0);
+        optimizer.setVerbose(true);
+        if (i==num_cameras-1) optimizer.save("dynamic_slam_graph_before_opt.g2o");
+        optimizer.optimize(100);
+        if (i==num_cameras-1) optimizer.save("dynamic_slam_graph_after_opt.g2o");
+    }
+
 }
