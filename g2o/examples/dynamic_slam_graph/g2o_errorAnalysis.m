@@ -2,7 +2,7 @@ cd '/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/dynamic_slam_graph'
 path = '/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/dynamic_slam_graph';
 gtGraphFileName = 'kitti-0003-0-40_GT.graph';
 measGraphFileName = 'kitti-0003-0-40_Meas.graph';
-resultsGraphFileName = 'kitti-0003-0-40_results.graph';
+resultsGraphFileName = 'kitti-0003-0-40_result_incremental.graph';
 startFrame = 0; endFrame = 40;
 
 config = CameraConfig();

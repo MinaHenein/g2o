@@ -4,6 +4,7 @@
 #include <stdint.h>
 #include <fstream>
 #include <string>
+#include <chrono>
 #include <iterator>
 
 #include "g2o/core/sparse_optimizer.h"
@@ -26,6 +27,7 @@ using namespace g2o;
 int main(){
 
     int ROBUST_KERNEL = 1;
+    bool constant_motion = true;
     ifstream file_meas("/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/dynamic_slam_graph/Data/GraphFiles/kitti-0003-0-40_Meas.graph");
     ifstream file_gt("/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/dynamic_slam_graph/Data/GraphFiles/kitti-0003-0-40_GT.graph");
     ifstream file_init("/home/mina/data/mina/workspace/src/Git/g2o/g2o/examples/dynamic_slam_graph/Data/GraphFiles/kitti-0003-0-40_initialisation.graph");
@@ -152,6 +154,10 @@ int main(){
     }
     file_init.close();
 
+    if(motion_vertices.size()!=init_object_motions.size()) {
+        sort(motion_vertices.begin(), motion_vertices.end() );
+        motion_vertices.erase(unique(motion_vertices.begin(), motion_vertices.end()), motion_vertices.end());
+    }
 
     SparseOptimizer optimizer;
     optimizer.setVerbose(true);
@@ -241,6 +247,7 @@ int main(){
         optimizer.addEdge(e);
     }
 
+    vector<int> motion_vertices_max_edge_level(motion_vertices.size(), 0);;
     for (size_t i=0; i<data_associations_vertices.size(); ++i) {
         g2o::LandmarkMotionTernaryEdge * em = new g2o::LandmarkMotionTernaryEdge();
         em->setVertex(0, optimizer.vertex(data_associations_vertices.at(i)[0]));
@@ -262,7 +269,13 @@ int main(){
         }
         em->setLevel(time_step);
         optimizer.addEdge(em);
+        if (constant_motion){
+                std::vector<int>::iterator it = std::find(motion_vertices.begin(), motion_vertices.end(),data_associations_vertices.at(i)[2]);
+                int index = std::distance(motion_vertices.begin(), it);
+                if (em->level()> motion_vertices_max_edge_level.at(index)) motion_vertices_max_edge_level.at(index) = em->level();
+        }
     }
+
 
     for (size_t i=0; i<motion_vertices.size(); ++i) {
         g2o::EdgeSE3Altitude * ea = new g2o::EdgeSE3Altitude();
@@ -271,41 +284,55 @@ int main(){
         Matrix<double, 1, 1> altitude_information;
         altitude_information << 25;
         ea->information() = altitude_information;
-        int time_step;
-        for (int j=0; j<num_cameras; ++j){
-            if (motion_vertices.at(i)<camera_vertices.at(j)){
-                time_step=j-1;
-                break;
+        if(constant_motion) ea->setLevel(motion_vertices_max_edge_level.at(i));
+        else{
+            int time_step;
+            for (int j=0; j<num_cameras; ++j){
+                if (motion_vertices.at(i)<camera_vertices.at(j)){
+                    time_step=j-1;
+                    break;
+                }
             }
+            ea->setLevel(time_step);
         }
-        ea->setLevel(time_step);
         optimizer.addEdge(ea);
     }
+
+    auto start = chrono::steady_clock::now();
 
     vector<int> edge_levels;
     for (SparseOptimizer::EdgeSet::iterator it = optimizer.edges().begin(); it != optimizer.edges().end(); ++it) {
         SparseOptimizer::Edge *e = dynamic_cast<SparseOptimizer::Edge *>(*it);
         edge_levels.push_back(e->level());
     }
-
-    int window_size = 3;
-    //camera_vertices.size()
-    for (int i=0; i<4; ++i){
+    int window_size = 5;
+    for (int i=0; i<num_cameras; ++i){
         int edge_count = 0;
+        g2o::EdgeSE3Prior *new_pose_prior = new g2o::EdgeSE3Prior();
         for (SparseOptimizer::EdgeSet::iterator it = optimizer.edges().begin(); it != optimizer.edges().end(); ++it) {
             SparseOptimizer::Edge *e = dynamic_cast<SparseOptimizer::Edge *>(*it);
-            if (e->level()<=i) e->setLevel(0);
-            /*
+            //if (e->level()<=i) e->setLevel(0);
+
             // set edges with levels <= i and within window size to level 0
             if (e->level()<=i and (i-edge_levels.at(edge_count)<window_size)) e->setLevel(0);
+
             // exclude edges previously set to level 0 if they are no longer within window size
             if (e->level()==0 and (i-edge_levels.at(edge_count)>=window_size)) e->setLevel(10000);
+
             // detect and remove loose edges
             // odometry edge connected to a time step outside window size
-            if (e->dimension()==6){
+            if (e->dimension()==6 and e->vertices().size()==2){
                 std::vector<int>::iterator it = std::find(camera_vertices.begin(), camera_vertices.end(), e->vertex(0)->id());
                 int index = std::distance(camera_vertices.begin(), it);
-                if((i-index)>=window_size) e->setLevel(10000);
+                if((i-index)>=window_size) {
+                    new_pose_prior->setVertex(0, e->vertex(1));
+                    VertexSE3 *new_first_pose = static_cast<VertexSE3 *>(optimizer.vertex(e->vertex(1)->id()));
+                    new_pose_prior->setMeasurement(new_first_pose->estimate());
+                    new_pose_prior->information() = MatrixXd::Identity(6, 6) * 1000;
+                    new_pose_prior->setParameterId(0, 0);
+                    new_pose_prior->setLevel(0);
+                    e->setLevel(10000);
+                }
             }
             // motion edges connecting dynamic points seen by a camera at a time step outside window size
             if (e->dimension()==3 and e->vertices().size()==3){
@@ -329,14 +356,19 @@ int main(){
                 }
                 if(i-(time_step-1)>=window_size) e->setLevel(10000);
             }
-            */
             ++edge_count;
         }
+        optimizer.addEdge(new_pose_prior);
         optimizer.initializeOptimization(0);
         optimizer.setVerbose(true);
-        if (i==num_cameras-1) optimizer.save("dynamic_slam_graph_before_opt.g2o");
+        //if (i==num_cameras-1) optimizer.save("dynamic_slam_graph_incremental_before_opt.g2o");
         optimizer.optimize(100);
-        if (i==num_cameras-1) optimizer.save("dynamic_slam_graph_after_opt.g2o");
+        optimizer.removeEdge(new_pose_prior);
+        //if (i==num_cameras-1) optimizer.save("dynamic_slam_graph_incremental_after_opt.g2o");
+        char str[80];
+        sprintf(str,"%s%d",strcpy(str,"dynamic_slam_graph_incremental_"),i);
+        optimizer.save(strcat(str,".g2o"));
     }
-
+    auto end = chrono::steady_clock::now();
+    cout << "Elapsed time in seconds : " << chrono::duration_cast<chrono::seconds>(end - start).count() << " sec";
 }

@@ -74,18 +74,15 @@
   <component name="ChangeListManager">
     <list default="true" id="31fa019a-9c17-4ff0-b9a7-750b3e249635" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam_graph/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam2d/CMakeFiles/types_slam2d.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/types/slam2d/CMakeFiles/types_slam2d.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/dynamic_slam_graph.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph.dir/dynamic_slam_graph.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/dynamic_slam_graph_incremental.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/g2o/examples/dynamic_slam_graph/CMakeFiles/dynamic_slam_graph_incremental.dir/dynamic_slam_graph_incremental.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/Data/GraphFiles/kitti-0003-0-40_results.graph" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/Data/GraphFiles/kitti-0003-0-40_results.graph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/Data/GraphFiles/kitti-0003-0-40_resultsG2O.graph" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/Data/GraphFiles/kitti-0003-0-40_resultsG2O.graph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/Data/GraphFiles/kitti-0003-0-40_results.graph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph_incremental.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph_incremental.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/g2o_errorAnalysis.m" beforeDir="false" afterPath="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/g2o_errorAnalysis.m" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -104,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+            <state relative-caret-position="2355">
+              <caret line="157" column="5" selection-start-line="157" selection-start-column="5" selection-end-line="157" selection-end-column="5" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -116,8 +113,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph_incremental.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1191">
-              <caret line="203" column="4" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="4" />
+            <state relative-caret-position="219">
+              <caret line="314" column="12" selection-start-line="313" selection-start-column="12" selection-end-line="314" selection-end-column="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -128,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="150">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -172,8 +169,8 @@
         <option value="$PROJECT_DIR$/g2o/types/slam3d/types_slam3d.h" />
         <option value="$PROJECT_DIR$/g2o/types/slam3d/edge_se3_altitude.h" />
         <option value="$PROJECT_DIR$/g2o/types/slam3d/edge_se3_altitude.cpp" />
-        <option value="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph.cpp" />
+        <option value="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph_incremental.cpp" />
       </list>
     </option>
@@ -207,34 +204,14 @@
               <item name="g2o" type="b2602c69:ProjectViewProjectNode" />
               <item name="g2o" type="462c0819:PsiDirectoryNode" />
               <item name="g2o" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="types" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="g2o" type="b2602c69:ProjectViewProjectNode" />
               <item name="g2o" type="462c0819:PsiDirectoryNode" />
               <item name="g2o" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="g2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="g2o" type="462c0819:PsiDirectoryNode" />
-              <item name="g2o" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="ba" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="g2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="g2o" type="462c0819:PsiDirectoryNode" />
-              <item name="g2o" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic_slam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="g2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="g2o" type="462c0819:PsiDirectoryNode" />
-              <item name="g2o" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic_slam_graph" type="462c0819:PsiDirectoryNode" />
+              <item name="types" type="462c0819:PsiDirectoryNode" />
+              <item name="slam3d" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -664,12 +641,12 @@
       <workItem from="1570694183311" duration="18000" />
       <workItem from="1570694225341" duration="26000" />
       <workItem from="1570694999017" duration="16000" />
-      <workItem from="1570753704793" duration="118817000" />
+      <workItem from="1570753704793" duration="151101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187124000" />
+    <option name="totallyTimeSpent" value="219408000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,13 +661,13 @@
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24046434" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24046434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32925585" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39959225" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39959225" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3119266" />
@@ -699,7 +676,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32925585" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32858595" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.3282365" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -728,6 +705,26 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>cout &lt;&lt; str &lt;&lt; endl;</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>init_object_motions.size()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>motion_vertices.size()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>edge_levels.at(edge_count)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>e-&gt;vertex(2)-&gt;id()</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -752,36 +749,9 @@
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>data_associations_vertices.at(i)[0]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>time_step</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>j</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>point_measurements_vertices.at(i)[1]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/se3_ops.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-162" />
@@ -790,13 +760,6 @@
     <entry file="file://$PROJECT_DIR$/g2o/core/base_binary_edge.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/g2o/core/optimizable_graph.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="276" selection-start-line="276" selection-end-line="276" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam/dynamic_slam_graph.cpp">
@@ -1015,13 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/edge_se3.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/types_slam3d.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -1039,13 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/landmark_motion_ternary_edge.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="56" column="64" lean-forward="true" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/edge_se3_altitude.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1060,20 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="802" selection-start-line="802" selection-end-line="802" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/g2o/examples/slam2d/slam2d_g2o.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1081,16 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3120">
           <caret line="237" column="30" selection-start-line="237" selection-start-column="30" selection-end-line="237" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1114,10 +1039,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/landmark_motion_ternary_edge.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="43" column="57" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/core/hyper_graph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="187" selection-start-line="187" selection-end-line="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="802" selection-start-line="802" selection-end-line="802" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/core/optimizable_graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="242" selection-start-line="242" selection-end-line="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2355">
+          <caret line="157" column="5" selection-start-line="157" selection-start-column="5" selection-end-line="157" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/g2o/types/slam3d/edge_se3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/g2o/examples/dynamic_slam_graph/dynamic_slam_graph_incremental.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1191">
-          <caret line="203" column="4" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="4" />
+        <state relative-caret-position="219">
+          <caret line="314" column="12" selection-start-line="313" selection-start-column="12" selection-end-line="314" selection-end-column="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

@@ -152,6 +152,10 @@ int main(){
     }
     file_init.close();
 
+    if(motion_vertices.size()!=init_object_motions.size()) {
+        sort(motion_vertices.begin(), motion_vertices.end() );
+        motion_vertices.erase(unique(motion_vertices.begin(), motion_vertices.end()), motion_vertices.end());
+    }
 
     SparseOptimizer optimizer;
     optimizer.setVerbose(true);
